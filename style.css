@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    background-size:cover;
+}
+
+.heading {
+    font-size: 23px;
+    background-color: #3B71C7;
+    color: whitesmoke;
+    width: 100%;
+    margin: 0px;
+    /*top - no radius*/
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.heading:hover {
+    font-size: 23px;
+    background-color: #3B71C7;
+    color: whitesmoke;
+    width: 100%;
+    margin: 0px;
+    /*top - no radius*/
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.div_speed {
+    float: left;
+}
+
+.div_speed_img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed {
+    font-size: 23px;
+    margin: 15px;
+}
+
+.div_volume {
+    float: right;
+}
+
+.div_volume_img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+.btn-danger:hover {
+    background-color: #DC3545;
+    color: white;
+}
+
+#volume {
+    font-size: 23px;
+    margin: 15px;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+#play_btn {
+    top: 100%;
+    bottom: 0%;
+}
+
+canvas {
+    transform: scaleX(-1);
+}
